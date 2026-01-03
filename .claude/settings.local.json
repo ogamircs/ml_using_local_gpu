@@ -17,7 +17,10 @@
       "Bash(\".venv/Scripts/python.exe\" main.py --save-data)",
       "Bash(git remote add:*)",
       "Bash(git commit:*)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(\".venv/Scripts/python.exe\" main.py --mode regression --samples 50000 --features 2000 --save-data)"
     ]
   }
 }
